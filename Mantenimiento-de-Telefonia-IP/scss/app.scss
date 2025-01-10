@@ -1,0 +1,219 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1 body
+	2 Header / .contain-to-grid
+	3 Content / #content
+	  3.1 Slider / .slider
+	  3.2 Accordion / .accordion
+	  3.3 Blog / .blog-post
+	  3.4 Button / .button
+	  3.5 Heading / .wd-heading
+	  3.6 Hero Title / .wd-hero-title
+	  3.7 Image Text / .wd-image-text
+	  3.8 Lists / .Lists
+	  3.9 Paricing Table / .paricing-table
+	  3.10 Count up / .counter
+	  3.11 Team / .team-member-container
+	  3.12 Testimoanil / .wd-testimonail
+	  3.13 Tab / .Tabs
+	  3.14 Sidebar / .sidebar
+	  3.15 text icon / .boxes
+	  3.16 Contact Form / .custom-contact-form
+	  3.17 Search / #searchform
+	  3.18 Title Bar / .wd-title-bar
+	4 Footer / .l-footer
+
+Content header	  h2
+-------------------------------------------------------------------*/
+@import "settings";
+@import "foundation";
+@import "custom";
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switches",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
+// Base
+//
+// Init file contains required imports. Here's where we include normalize,
+// foundation and also compass.
+@import "base/init";
+// Import our mixins early so they can be used by other partials.
+@import "base/mixins";
+//
+// Common file is where you place common utility classes to extend or
+// parametrics. Optional file.
+@import "base/common";
+//
+// Styling for elements.
+@import "base/elements";
+//
+// Layout
+//
+// Each section of the document has it's own partial seperated out to improve
+// developer experience. Additionally, grids can be declared in layouts as well.
+@import "layout/header";
+@import "layout/triptych";
+// Components
+@import "components/blocks";
+// @import "components/buttons";
+@import "components/section";
+@import "components/calendar";
+@import "components/type";
+@import "components/forms";
+@import "components/foundation-icons";
+@import "components/vcomposer";
+@import "components/portfolio";
+@import "components/_comments";
+@import "components/_gallery";
+// tools
+@import "tools/mixins";
+// Modules
+@import "modules/piechart";
+@import "modules/404";
+@import "modules/progress_bare";
+@import "modules/portfolio";
+@import "modules/events";
+// Themes
+@import "theme/section";
+@import "theme/blocks";
+@import "theme/box-wrapper";
+@import "components/calltoaction";
+@import "help";
+@import "tools/responsive";
+/*-----------------------------------------------------------
+{1 body}
+*/
+@import "layout/global";
+@import "theme/global";
+/*-----------------------------------------------------------
+{2 Header / .contain-to-grid}
+*/
+@import "components/menus/_menu-metro";
+@import "components/menus/_menu-corporate";
+@import "components/menus/_menu-creative";
+@import "components/menus/_menu-modern";
+@import "components/menus/_menu-offcanvas";
+/*-----------------------------------------------------------
+{3 Content / #content}
+*/
+@import "layout/main";
+/*-----------------------------------------------------------
+{3.1 Slider / .slider}
+*/
+@import "components/sliders";
+@import "components/slider";
+/*-----------------------------------------------------------
+{3.2 Accordion / .accordion}
+*/
+@import "components/accordion";
+/*-----------------------------------------------------------
+{3.3 Blog / .blog-post}
+*/
+@import "components/blog";
+@import "theme/blog";
+/*-----------------------------------------------------------
+{3.4 Button / .button}
+*/
+@import "theme/button";
+/*-----------------------------------------------------------
+{3.5 Heading / .wd-heading}
+*/
+@import "components/_headings";
+/*-----------------------------------------------------------
+{3.6 Hero Title / .wd-hero-title}
+*/
+@import "components/_hero-image";
+@import "modules/postimage";
+/*-----------------------------------------------------------
+{3.7 Image Text / .wd-image-text}
+*/
+@import "components/_image_with_text";
+@import "components/lang_icons";
+/*-----------------------------------------------------------
+{3.8 Lists / .Lists}
+*/
+@import "components/lists";
+/*-----------------------------------------------------------
+{3.9 Paricing Table / .paricing-table}
+*/
+@import "components/table";
+@import "theme/table";
+/*-----------------------------------------------------------
+{3.10 Count up / .counter}
+*/
+@import "modules/countup";
+/*-----------------------------------------------------------
+{3.11 Team / .team-member-container}
+*/
+@import "modules/team-member-slider";
+@import "components/team";
+/*-----------------------------------------------------------
+{3.12 Testimoanil / .wd-testimonail}
+*/
+@import "components/_testimonail";
+@import "modules/carousel";
+/*-----------------------------------------------------------
+{3.13 Tab / .Tabs}
+*/
+@import "components/tabs";
+/*-----------------------------------------------------------
+{3.14 Sidebar / .sidebar}
+*/
+@import "layout/aside";
+/*-----------------------------------------------------------
+{3.15 text icon / .boxes}
+*/
+@import "modules/box-text";
+@import "modules/image-box";
+/*-----------------------------------------------------------
+{3.16 Contact Form / .custom-contact-form}
+*/
+@import "theme/contact";
+/*-----------------------------------------------------------
+{3.17 Search / #searchform}
+*/
+/*-----------------------------------------------------------
+{3.18 Title Bar / .wd-title-bar}
+*/
+@import "theme/header";
+/*-----------------------------------------------------------
+{4 Footer / .l-footer}
+*/
+@import "layout/footer";
+@import "theme/footer";
+
+

@@ -1,0 +1,347 @@
+// Non-modular or client styles for the .l-content region.
+
+.l-main {
+}
+
+.node {
+}
+
+.body {
+}
+
+.image {
+}
+
+.breadcrumb {
+}
+
+.l-footer-columns {
+  background-image: url('../images/footer-bg-1.jpg');
+  background-size: cover;
+
+}
+
+.titlebar {
+  background: url(../images/title-bg.jpg) no-repeat;
+
+  width: 100%;
+  text-align: left;
+  background-size: cover;
+}
+
+#page-title, .breadcrumbs a {
+}
+
+.header-top.social_top_bar, .orange_bar {
+}
+
+.header-top.social_top_bar, .orange_bar,
+.l-header .header-top .contact-info,
+.l-header .header-top i,
+.l-header .header-top .social-icons.accent li i,
+#lang_sel_list a.lang_sel_sel, #lang_sel_list > ul > li a {
+}
+
+body, body p {
+  font-family: 'Poppins';
+}
+
+h1, h2, h3, h4, h5, h6, .menu-list a {
+  font-family: 'Poppins';
+  font-weight: 600;
+}
+
+.corporate-layout .top-bar-section ul.menu > li > a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.primary-color_bg, .square-img > a:before,
+.boxes .box > a:before, .boxes .box .flipper a:before,
+.wd_onepost .title-block span, .one_post_box .box_image .titel_icon .box_icon,
+.one_post_box .more, .boxes .box-container > a:before,
+.boxes .box-container .flipper a:before, .layout-4 div.box-icon i.fa,
+.boxes.small.layout-5 .box-icon, .boxes.small.layout-5-inverse .box-icon,
+.boxes.small.layout-6 .box-icon i.fa, .carousel_blog span.tag a,
+.wd-carousel-container .carousel-icon i, .search_box input[type='submit'],
+table thead, table tfoot, .block-block-17, .row.call-action, .blog-info,
+button.dark:hover, button.dark:focus, .button.dark:hover, .button.dark:focus,
+span.wpb_button:hover, span.wpb_button:focus,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+.woocommerce-page .widget_price_filter .ui-slider .ui-slider-range,
+.products .product .button,
+.woocommerce #content input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt,
+.woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce-page #content input.button.alt,
+.woocommerce-page #respond input#submit.alt, .woocommerce-page a.button.alt,
+.woocommerce-page button.button.alt, .woocommerce-page input.button.alt,
+.woocommerce #content input.button:hover, .woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover, .woocommerce button.button:hover,
+.woocommerce input.button:hover, .woocommerce-page #content input.button:hover,
+.woocommerce-page #respond input#submit:hover, .woocommerce-page a.button:hover,
+.woocommerce-page button.button:hover, .woocommerce-page input.button:hover,
+.woocommerce span.onsale, .woocommerce-page span.onsale,
+.woocommerce-page button.button, .widget_product_search #searchsubmit, .widget_product_search #searchsubmit:hover,
+.l-footer-columns #searchsubmit, .page-numbers.current, .post-password-form input[type='submit'],
+.page-links a:hover,
+.blog-post .sticky .blog-info, .team-member-slider .owl-dots .owl-dot.active span, .team-member-slider .owl-theme .owl-dots .owl-dot:hover span,
+.team-member-carousel .owl-dots .owl-dot.active span, .team-member-carousel .owl-theme .owl-dots .owl-dot:hover span,
+#comments ul.commentlist li.comment section.comment .comment-reply-link, #comments ol.commentlist li.comment section.comment .comment-reply-link,
+.wd-image-text.style-2 h4:after, .woocommerce-page input.button, .woocommerce-page a.button, #tribe-events .tribe-events-button, #tribe-bar-form .tribe-bar-submit input[type='submit']:hover,
+.tribe-events-calendar thead th {
+  background: rgba(93, 162, 4, 1);
+}
+
+.text_icon_hover > div .vc_row:hover {
+  background: rgba(93, 162, 4, 1) !important;
+}
+
+.text_icon_hover > div .vc_row:hover .box-title-1, .text_icon_hover > div .vc_row:hover .box-body {
+  color: #fff;
+}
+
+.blog-post .sticky .blog-info {
+  background: rgba(93, 162, 4, 1) repeating-linear-gradient(-55deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) 10px, rgba(0, 0, 0, 0) 10px, rgba(0, 0, 0, 0) 20px) repeat scroll 0 0;
+}
+
+.sidebar #s:active,
+.sidebar #s:focus, .boxes.layout-3 .box-icon, .top-bar-section ul li:hover, .corporate-layout .top-bar-section ul li:hover, .corporate-layout .top-bar-section ul li.current-menu-item {
+  border-color: rgba(93, 162, 4, 1);
+}
+
+.blog-info .arrow {
+  border-color: transparent rgba(93, 162, 4, 1);
+}
+
+.primary-color_color, a, a:focus, a.active, a:active, a:hover, section.corporate .menu-item a i,
+.box-container:hover .box-title, .blog-posts i, .woocommerce .woocommerce-breadcrumb, .woocommerce-page .woocommerce-breadcrumb, div.boxes.small.layout-3 .box-icon i, .corporate-layout .header-top .contact-info .fa,
+.l-header .header-top .social-icons.accent li:hover i, .corporate-layout .top-bar-section ul li:hover:not(.has-form) > a,
+.corporate-layout .top-bar-section ul.menu > li.current-menu-item > a {
+  color: rgba(93, 162, 4, 1);
+}
+
+.boxes.small.layout-3 .box-icon i,
+div.boxes.small.layout-3:hover .box-icon i {
+  color: rgba(255, 255, 255, 1);
+}
+
+.blog-posts h2 a, .breadcrumbs > *, .breadcrumbs {
+}
+
+button, .button, button:hover, button:focus, .button:hover, .button:focus, .products .product:hover .button,
+.woocommerce-product-search > input[type='submit'] {
+}
+
+.corporate-layout .top-bar-section ul.menu > li > a,
+.creative-layout .top-bar-section ul li > a {
+  color: rgba(255, 255, 255, 1);
+}
+
+.contain-to-grid.sticky.fixed {
+  background-color: #FFF;
+}
+
+.l-footer-columns, .l-footer-columns .block-title, .l-footer-columns ul li a {
+}
+
+.l-footer {
+}
+
+.contain-to-grid.sticky.fixed, .top-bar, .corporate-layout .contain-to-grid.sticky, header.l-header, .corporate-layout .contain-to-grid {
+}
+
+#spaces-main {
+}
+
+.blog-info .arrow {
+  border-left-color: rgba(93, 162, 4, 1);
+}
+
+.ui-accordion-header-active, .ui-tabs-active, .box-icon {
+  border-top-color: rgba(93, 162, 4, 1)
+}
+
+.columns {
+  min-height: 1px;
+}
+
+.our-call {
+  padding: 40px 0;
+  .row {
+    .columns > .wd-heading {
+      margin: 100px 0 0;
+      @media #{$small-only} {
+        margin: 40px 0 0;
+      }
+    }
+  }
+}
+
+.got_questions {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: url(../images/calling-phone-1.jpg) no-repeat center;
+  background-size: cover;
+  .columns {
+    > .wd-heading {
+      margin-top: 100px;
+      @media #{$small-only} {
+        margin-top: 40px;
+      }
+    }
+    .accordion {
+      margin-bottom: 100px;
+      @media #{$small-only} {
+        margin-bottom: 40px;
+      }
+    }
+  }
+
+}
+
+.services {
+  padding: 100px 0 80px;
+  @media #{$small-only} {
+    padding: 40px 0;
+  }
+}
+
+.our_call {
+  background-color: #81d742;
+  padding: 120px 0 0;
+  @media #{$small-only} {
+    padding: 80px 0 0;
+  }
+}
+
+.pricing {
+  padding-bottom: 100px;
+  .row {
+    .wd-heading {
+      margin: 100px 0 50px;
+      @media #{$small-only} {
+        margin: 40px 0;
+      }
+    }
+  }
+}
+
+.recent_news {
+  ul {
+    margin: 50px 0;
+    @media #{$small-only} {
+      margin: 40px 0;
+    }
+  }
+}
+
+.section_contact {
+  .columns {
+    padding: 0;
+  }
+  .contact_form {
+    background-image: url("../images/upload.png");
+    padding: 50px 0 0;
+
+    .contact {
+      .columns {
+        padding: 0 50px;
+      }
+      form {
+        margin-bottom: 33px;
+      }
+    }
+  }
+}
+
+.block-title {
+  padding: 50px 0;
+  .block_container_1 {
+    padding: 50px;
+    background-color: #ededed;
+  }
+  .block_container_2 {
+    padding: 50px;
+    background-color: #d7d7d7;
+  }
+  .block_container_3 {
+    padding: 50px;
+    background-color: #b0b0b0;
+  }
+}
+
+.count_up {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #81d742;
+}
+
+.testimonail {
+  padding-bottom: 120px;
+  @media #{$small-only} {
+    padding-bottom: 40px;
+  }
+}
+
+.our_story {
+  padding-bottom: 40px;
+  @media #{$small-only} {
+    padding-bottom: 30px;
+  }
+  .columns {
+    > .wd-heading {
+      margin-bottom: 40px;
+      @media #{$small-only} {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+
+.make_sense {
+  background: #ebebeb;
+  .columns {
+    > .wd-heading {
+      margin: 100px 0 0;
+      @media #{$small-only}{
+        margin: 20px 0 0;
+      }
+    }
+  }
+
+}
+
+.our_office {
+  h2 {
+    margin: 30px 0 0px;
+    @media #{$small-only}{
+      margin: 20px 0 0px;
+    }
+  }
+  > p {
+    margin-bottom: 50px;
+    @media #{$small-only} {
+      margin-bottom: 15px;
+    }
+  }
+}
+.boxed_home{
+  background: #eee;
+  margin: 30px auto;
+  max-width: 83.572em;
+  .our-call, .got_questions, .services,
+    .our_call, .pricing, .recent_news
+  {
+  padding-left: 20px ;
+  padding-right: 20px;
+  }
+}
+.l-main.row {
+  margin: 0 auto;
+  max-width: 83.572em;
+  background: #fff;
+}
+.teams{
+  ul{
+    width: 100%;
+  }
+}

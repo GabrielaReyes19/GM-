@@ -1,0 +1,51 @@
+div {
+  &.wpb_call_to_action {
+    background: none;
+    border: none;
+    h2 {
+      color: #fff;
+      font-size: 1.5em;
+    }
+
+  }
+}
+
+span {
+  &.wpb_button {
+    border-top: 1px solid #fff;
+    border-right: 1px solid #9d0275;
+    border-bottom: 1px solid #9d0275;
+    background-color: #d0029a;
+    padding: 10px 20px;
+    font-size: 1.14286em;
+    font-weight: bold;
+    line-height: normal;
+    &:hover, &:focus {
+      @extend .primary-color_bg;
+      border-top: none;
+    }
+  }
+}
+
+header .button.home-cta {
+  background: #e98b03;
+  padding: 21px 23px;
+  margin-top: 23px;
+  height: 59px;
+  border: medium none;
+  border-radius: 3px;
+  margin-left: 115px;
+  color: #fff;
+  font-weight: 800;
+  border-bottom: 5px solid RGBA(0, 0, 0, 0.19);
+}
+
+header .fixed .button.home-cta {
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 900px) {
+  header .button.home-cta {
+    display: none;
+  }
+}

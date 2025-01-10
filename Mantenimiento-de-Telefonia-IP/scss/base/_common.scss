@@ -1,0 +1,82 @@
+// Common abstract classes to extend or parametrics are stored here.
+
+// Example parametrics.
+// ------------------------------------------------------
+// %font-FONTNAME   {}
+// %font-sans-serif { font-family: sans-serif; }
+// %font-serif      { font-family: serif; }
+body {
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+
+pre {
+  border: 1px solid rgba(0, 0, 0, 0.32);
+  overflow: auto;
+  padding: 20px;
+  white-space: pre-wrap;
+}
+
+.hide {
+  display: none !important;
+}
+
+.comment ul {
+  list-style: outside none none;
+}
+
+.row .row {
+  max-width: $row-width;
+}
+
+.animated, .animation-parent {
+  overflow: hidden;
+}
+
+.collapse[class*="block-grid-"] > li {
+  padding: 0;
+}
+
+.wd-vertical-aligned {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  left: 50%;
+}
+
+.row-delimiter {
+  width: 1px;
+  position: absolute;
+  bottom: 0px;
+  transform: translateY(100%) translateX(900px);
+}
+
+.title_separateur {
+  overflow: visible !important;
+  min-height: 200px;
+  &::before {
+    background: #1770c4;
+    content: "";
+    display: block;
+    height: 40px;
+    left: 50%;
+    position: absolute;
+    bottom: -16px;
+    transform: rotate(45deg);
+    width: 30px;
+  }
+}
+
+.f-topbar-fixed {
+  padding-top: 0 !important;
+}
+
+.search-results .l-main .main > article {
+  margin-bottom: 40px;
+  .body {
+    line-height: 1.6;
+  }
+}

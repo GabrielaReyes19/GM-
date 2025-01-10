@@ -1,0 +1,12 @@
+table thead,
+table tfoot {
+  @extend .primary-color_bg;
+}
+
+.calendar-calendar th.days {
+  background-color: #D0029A;
+  border: 0 solid #CCCCCC;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 14px 5px;
+}

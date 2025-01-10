@@ -1,0 +1,115 @@
+.count1, .count2, .count3, .count4 {
+  padding: 50px 0;
+}
+
+.count1 {
+  background-color: #b3006b;
+}
+
+.count2 {
+  background-color: #fa2a57;
+}
+
+.count3 {
+  background-color: #ff7701;
+}
+
+.count4 {
+  background-color: #ffb320;
+
+}
+
+.map-offices {
+  //background-image: url("../images/bg9.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+
+}
+
+.l-footer-columns {
+  background-position: center bottom;
+  background-repeat: no-repeat;
+
+}
+
+.top-bar .name h1 a {
+  width: auto;
+}
+
+header .button.home-cta {
+  border: medium none;
+  border-radius: 2px;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  height: 46px;
+  margin: 30px 40px 30px 115px;
+  padding: 14px 30px;
+}
+
+.wpcf7-form-control-wrap textarea {
+  margin: 0 0 1rem 0;
+}
+
+.wpcf7-form-control.wpcf7-submit {
+  padding: 12px 75px;
+}
+
+h2.contact-us::after, .contact-us-info h2::after, .who-we-are h2::after {
+  content: " ";
+  display: block;
+  background-color: $primary-color;
+  height: 3px;
+  width: 20px;
+  margin: 8px 0 10px 0;
+}
+
+.contact-us-info ul.information-list li {
+  list-style: none;
+  overflow: hidden;
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.contact-us-info ul.information-list li i {
+  float: left;
+  color: #333333;
+  font-size: 13px;
+  display: inline-block;
+  line-height: 24px;
+}
+
+.contact-us-info p {
+  margin-bottom: 30px;
+}
+
+.contact-us-info ul.information-list li span, .contact-us-info ul.information-list li a {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 0;
+  margin-left: 25px;
+  color: #333333;
+}
+
+.contact-us-info ul.information-list {
+  margin-left: 0;
+}
+
+.contact-us-info {
+  margin-left: 15px;
+}
+
+.vc_general.vc_cta3.about-call {
+  padding: 100px 28px;
+}
+
+.who-we-are h4 {
+  color: $primary-color;
+}
+
+.about-presentation-p {
+  padding-right: 25px;
+  padding-top: 10px;
+}

@@ -1,0 +1,216 @@
+
+.nav-layout-metro .top-bar-section ul li:hover:not(.has-form) > a,
+.nav-layout-metro .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
+  background: none;
+}
+
+.color-1, ul li.color-1 {
+  background: $color-1;
+}
+
+.color-2, ul li.color-2, .nav-layout-metro .top-bar-section li.has-dropdown.color-2 ul.sub-menu.dropdown a:hover {
+  background: $color-2;
+}
+
+.color-3, ul li.color-3, .nav-layout-metro .top-bar-section li.has-dropdown.color-3 ul.sub-menu.dropdown a:hover {
+  background: $color-3;
+}
+
+.color-4, ul li.color-4,
+.nav-layout-metro .top-bar-section li.has-dropdown.color-4 ul.sub-menu.dropdown a:hover {
+  background: $color-4;
+}
+
+.color-4,
+.nav-layout-metro .top-bar-section li.has-dropdown.color-4 ul.sub-menu.dropdown a:hover {
+  background: $color-4;
+}
+
+.color-5, ul li.color-5,
+.nav-layout-metro .top-bar-section li.has-dropdown.color-5 ul.sub-menu.dropdown a:hover {
+  background: $color-5;
+}
+
+.color-5, ul li.color-5,
+.nav-layout-metro .top-bar-section li.has-dropdown.color-5 ul.sub-menu.dropdown a:hover {
+  background: $color-5;
+}
+
+.color-6, ul li.color-6,
+.nav-layout-metro .top-bar-section li.has-dropdown.color-6 ul.sub-menu.dropdown a:hover {
+  background: $color-6;
+}
+
+.color-7, ul li.color-7,
+.nav-layout-metro .top-bar-section li.has-dropdown.color-7 ul.sub-menu.dropdown a:hover {
+  background: $color-7;
+}
+
+.color-8, ul li.color-8,
+.nav-layout-metro .top-bar-section li.has-dropdown.color-8 ul.sub-menu.dropdown a:hover {
+  background: $color-8;
+}
+
+.color-9, ul li.color-9,
+.nav-layout-metro .top-bar-section li.has-dropdown.color-9 ul.sub-menu.dropdown a:hover {
+  background: $color-9;
+}
+
+.color-10, ul li.color-10,
+.nav-layout-metro .top-bar-section li.has-dropdown.color-10 ul.sub-menu.dropdown a:hover {
+  background: $color-10;
+}
+
+.color-11, ul li.color-11,
+.nav-layout-metro .top-bar-section li.has-dropdown.color-11 ul.sub-menu.dropdown a:hover {
+  background: $color-11;
+}
+
+.black,
+.black .page {
+  background: #222;
+  color: #FFF;
+}
+
+body.black {
+  background: #FFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  .black & {
+    color: #FFF;
+  }
+}
+
+.wpb_column h3 {
+  color: inherit;
+}
+
+.l-boxed .page {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2)
+}
+
+div.vc_separator h4 {
+  font-size: 2em;
+}
+
+.nav-layout-metro .top-bar-section li.has-dropdown ul.sub-menu.dropdown a:hover {
+  color: #fff;
+}
+
+.wd-section-title-black {
+  h2 {
+    font-size: 36px;
+    color: #333;
+  }
+  h3 {
+    font-size: 24px;
+    color: #777;
+  }
+}
+
+.wd-section-title-with {
+  h1, h2, h3, h4 {
+    color: #fff;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 24px;
+    color: #fff;
+
+  }
+}
+
+.wd-section-title-m-black {
+  h2,
+  h2:last-child {
+    font-size: 36px;
+    color: #222;
+  }
+  h3,
+  h3:last-child {
+    font-weight: 400;
+    color: #222;
+    margin-bottom: 17px;
+    display: block;
+  }
+}
+
+.bg-1 {
+  background: #1B1A1C;
+  background-size: cover;
+  color: #fff;
+}
+
+.bg-2 {
+  background: #333 url(../img/blackboard.jpg) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+}
+
+.bg-3 {
+  color: #fff;
+  background: #A2E29E;
+}
+
+.bg-4 {
+  background: #30353c;
+  color: #4e5154;
+}
+
+.bg-5 {
+  background: #514B48;
+  color: #7D746F;
+}
+
+.bg-6 {
+  background: #1d211f;
+  color: #6ed19f;
+}
+
+.bg-7 {
+  color: #C3E9F5;
+  background: linear-gradient(45deg, #7e67e5, #02cbdf);
+}
+
+.bg-8 {
+  background: #383e4c;
+  color: #fff;
+}
+
+.bg-9 {
+  background: #efb7b7;
+  color: #382628;
+}
+
+.bg-10 {
+  color: #eaebed;
+}
+
+.bg-11 {
+  background: #f7faf9;
+}
+
+.bg-12 {
+  background: #647df9;
+  color: #7a90ff;
+}
+
+.bg-12 p {
+  color: #fff;
+  text-align: center;
+}
+
+.bg-12 a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.bg-12 a:hover,
+.bg-12 a:focus {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+

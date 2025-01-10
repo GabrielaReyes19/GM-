@@ -1,0 +1,84 @@
+div.wd-item-title.text-center h4 {
+  background-image: url("../images/wd-title-bg.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  font-size: 2.3em;
+  padding-bottom: 30px;
+}
+
+.wpb_wrapper > h4 {
+  color: inherit;
+}
+
+.team-member-item h4 {
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "open sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+.team-member-item h3 {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: none;
+  margin-bottom: 0;
+  font-family: "open sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+.team-member-desc p {
+  color: #717171;
+  font-size: 13px;
+  margin-top: 18px;
+  padding: 0 6px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.team-member-name-job-title {
+  background-color: $primary-color;
+  color: #fff;
+  margin-top: -46px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 6px 0;
+  position: relative;
+  width: 100%;
+  text-transform: uppercase;
+  opacity: .96;
+}
+
+.team-member-desc.text-left,
+.team-membre-social-icons {
+  display: none;
+}
+
+li .team-member-item {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+li .team-member-item:hover {
+  background-color: #ffffff;
+}
+
+.team-membre-social-icons ul {
+  margin: 0;
+  li {
+    display: inline-block;
+    margin: 0;
+    a {
+      color: #a1a1a1;
+      transition: color 0.2s;
+      padding: 14px 8px;
+      display: inline-block;
+      &:hover {
+        color: #35a6e2;
+      }
+      i {
+        font-size: 16px;
+      }
+    }
+  }
+}

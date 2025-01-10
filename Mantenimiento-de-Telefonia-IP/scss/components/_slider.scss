@@ -1,0 +1,189 @@
+
+.slider {
+  .orbit-container {
+    li {
+      .orbit-caption {
+        text-align: left;
+        position: absolute;
+        top: 36%;
+        left: 18%;
+        width: 600px;
+        background: none;
+        @media #{$small-only} {
+          top: 9%;
+          width: 100%;
+          left: 4%;
+        }
+        h3 {
+          color: #fff;
+          font-size: 55px;
+          line-height: 50px;
+          font-family: open sans;
+          font-weight: 300;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          @media #{$small-only} {
+            font-size: 20px;
+            line-height: 25px;
+          }
+        }
+        .shape {
+          background-color: rgb(0, 187, 255);
+          text-align: left;
+          line-height: 24px;
+          border: 0px rgba(0, 0, 0, 0.5);
+          margin: 15px 0;
+          padding: 0px;
+          letter-spacing: 0px;
+          font-weight: 300;
+          font-size: 14px;
+          white-space: normal;
+          min-height: 3px;
+          min-width: 60px;
+          max-height: 3px;
+          max-width: 60px;
+          @media #{$small-only}{
+            margin: 0;
+          }
+        }
+        p {
+          font-size: 28px;
+          line-height: 36px;
+          font-weight: 300;
+          color: rgb(255, 255, 255);
+          font-family: open sans;
+          letter-spacing: 2px;
+          font-weight: 300;
+          @media #{$small-only}{
+            font-size: 10px;
+            line-height: 15px;
+            margin: 0 0 6px 0;
+          }
+        }
+        .button {
+          font-weight: 600;
+          color: rgb(255, 255, 255);
+          background-color: $primary-color;
+          text-align: center;
+          border-radius: unset;
+          @media #{$small-only}{
+            margin: 0;
+            padding: 7px 6px;
+            font-size: 11px;
+            font-weight: 400;
+          }
+        }
+      }
+      &.style-2{
+        .orbit-caption{
+          h3, p{
+            color: #333;
+          }
+        }
+      }
+    }
+    li.slide-2 {
+      .orbit-caption {
+        left: unset;
+        right: 18%;
+        text-align: right;
+        @media #{$small-only} {
+          right: 4%;
+        }
+        p {
+          color: #fff;
+        }
+        @media #{$small-only}{
+          .button {
+            margin: 0;
+            padding: 7px 6px;
+            font-size: 11px;
+            font-weight: 400;
+          }
+          p {
+            font-size: 10px;
+            line-height: 15px;
+            margin: 0 0 6px 0;
+          }
+          h3 {
+            font-size: 20px;
+            line-height: 25px;
+          }
+        }
+      }
+      &.style-2{
+        .orbit-caption{
+          h3, p{
+            color: #333;
+          }
+        }
+      }
+    }
+    .orbit-bullets-container {
+      display: none;
+    }
+    .orbit-next, .orbit-prev {
+      opacity: 0;
+      -webkit-transition: all 500ms ease-in-out;
+      -moz-transition: all 500ms ease-in-out;
+      -ms-transition: all 500ms ease-in-out;
+      -o-transition: all 500ms ease-in-out;
+      transition: all 500ms ease-in-out;
+      > span {
+        border: none;
+      }
+    }
+    &:hover {
+      .orbit-prev {
+        opacity: 1;
+        left: 20px;
+        background: #fff9;
+        width: 53px;
+        span {
+          border: none;
+        }
+        &::after {
+          content: "\f104";
+          font-family: FontAwesome;
+          font-style: normal;
+          font-weight: normal;
+          text-decoration: inherit;
+          color: #000;
+          font-size: 35px;
+          position: absolute;
+          left: 18px;
+          display: block;
+          text-indent: 0 !important;
+          line-height: 59px;
+        }
+      }
+      .orbit-next {
+        opacity: 1;
+        right: 20px;
+        background: #fff9;
+        width: 53px;
+        span {
+          border: none;
+        }
+        &::after {
+          content: "\f105";
+          font-family: FontAwesome;
+          font-style: normal;
+          font-weight: normal;
+          text-decoration: inherit;
+          color: #000;
+          font-size: 35px;
+          position: absolute;
+          right: 18px;
+          display: block;
+          text-indent: 0 !important;
+          line-height: 59px;
+        }
+      }
+    }
+  }
+}
+
+iframe {
+  width: 100%;
+}

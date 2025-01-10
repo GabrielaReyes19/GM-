@@ -1,0 +1,13 @@
+// Docs: http://foundation.zurb.com/docs/components/buttons.html
+//
+// Before adding styles be sure to modify variables in the
+// "scss/_variables.scss" file.
+
+button, .button {
+  transition: all 0.3s ease 0s;
+}
+
+button {
+  &.dark {
+  }
+}
