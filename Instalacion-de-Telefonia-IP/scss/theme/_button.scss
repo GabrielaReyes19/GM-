@@ -1,0 +1,86 @@
+// Theme or skin specific modifiers.
+//
+// The following are some examples of how a theme modifier would work. Themes
+// are decoupled from a theme's structure and modifies a component or element's
+// default look and feel. Feel free to remove files.
+//
+// Example Markup:
+//  <button class="button t-button-light">Submit</button>
+
+button,
+.button {
+  background: transparent;
+  color: #555;
+  border: 1px solid #cfcfd0;
+  transition: .4s;
+  text-transform: uppercase;
+  font-size: 13px;
+  &:hover,
+  &:focus {
+    background-color: $primary-color;
+    border-color: $primary-color;
+    padding-left: 30px;
+    padding-right: 30px;
+
+  }
+  &.disabled,
+  &[disabled] {
+    &,
+    &:hover {
+      background-color: #EDEDED;
+      border-color: #E4E4E4;
+      color: #7B7B7B;
+    }
+  }
+  &.large {
+    font-size: 14px;
+    &:hover {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  }
+  &.small {
+    font-size: 12px;
+    &:hover {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+  &.tiny {
+    font-size: 11px;
+    &:hover {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+  &:after {
+    font-family: FontAwesome;
+    content: "\f178";
+    padding-left: 10px;
+  }
+}
+
+.wd-outline-button {
+  border: 1px solid #333;
+  color: #333;
+  font-size: 11px;
+  padding: 14px 18px;
+}
+
+.button.large.wd-black {
+  background-color: #282828;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 6px 11px;
+  &:after {
+    content: "";
+  }
+  &:hover {
+    padding: 6px 11px;
+    color: #282828;
+    background-color: transparent;
+    border-color: #282828;
+  }
+}

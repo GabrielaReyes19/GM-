@@ -1,0 +1,148 @@
+.blog-info {
+  background-color: transparent !important;
+  @extend .primary-color_bg;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  a, & {
+    color: #EEE;
+  }
+  .arrow {
+    border-color: rgba(0, 0, 0, 0) $primary-color;
+  }
+  .date {
+    background: $primary-color;
+    .day {
+      font-size: 2.3em;
+      color: #FFF;
+    }
+  }
+  .author {
+    div {
+      font-size: 1.3em;
+      a {
+        color: #FFF;
+      }
+    }
+  }
+  .comment-count {
+    div {
+      font-size: 1em;
+      color: #FFF;
+    }
+  }
+}
+
+.blog-posts {
+  .node-title {
+    font-size: 2.05em;
+    margin: 10px 0 4px;
+    text-align: center;
+    @media #{$small-only} {
+      font-size: 22px;
+      line-height: 26px;
+    }
+    a {
+      color: #000;
+    }
+  }
+  .wp-post-image {
+    padding: 10px 0;
+  }
+}
+
+.blog {
+  color: #999999;
+}
+
+.blog .wd-gallery-images-holder {
+  margin-left: 0;
+}
+
+.prev.page-numbers, .next.page-numbers {
+  border: none;
+}
+
+.page-numbers, .page-links a {
+  border: 1px solid;
+  padding: 5px 10px;
+  &:hover {
+    color: #FFF;
+  }
+}
+
+.wd-pagination .page-numbers:hover {
+  color: $primary-color;
+}
+
+.wd-pagination .page-numbers.current:hover {
+  color: #FFF;
+}
+
+.page-numbers.dots {
+  border: none;
+}
+
+.page-numbers.current {
+  background: $primary-color;
+  color: #fff;
+}
+
+.post-password-form input[type='submit'] {
+  @include button;
+}
+
+.blog-post .sticky .blog-info {
+  background: $primary-color repeating-linear-gradient(-55deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) 10px, rgba(0, 0, 0, 0) 10px, rgba(0, 0, 0, 0) 20px) repeat scroll 0 0;
+  border-left: none;
+}
+
+.simple-blog {
+  .wd-blog-post {
+    background: rgba(255, 255, 255, 0.89);
+    .wd-blog-post-detail {
+      padding: 5px 20px 10px 25px;
+      img {
+        width: 100%;
+      }
+      h3 {
+        margin-bottom: 10px;
+        a {
+          font-size: 18px;
+          font-weight: 600;
+          color: #333;
+          line-height: 28px;
+        }
+      }
+      p {
+        color: #777;
+        padding-bottom: 20px;
+        @media #{$medium-up} {
+          overflow: hidden;
+          height: 4.8em;
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}
+
+.wd-blog-post-detail {
+  .wd-blog-detail {
+    margin-top: 20px;
+  }
+  span {
+    border-radius: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 13px;
+    color: #333333;
+    &:first-child {
+      padding-left: 0;
+    }
+    &:last-child {
+      border: none;
+    }
+  }
+  ul {
+    margin-left: 5px;
+  }
+}

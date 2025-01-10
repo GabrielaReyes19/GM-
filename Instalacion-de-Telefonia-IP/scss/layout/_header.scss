@@ -1,0 +1,354 @@
+// Non-modular or client styles for .l-header region.
+
+.social-icons.inline-list {
+  margin: 0;
+}
+
+.social-icons li {
+  margin: 0;
+  padding: 12px 7px;
+  float: right;
+  &:hover {
+    background: rgba(0, 0, 0, 0.2);
+  }
+  & i {
+    padding: 4px 5px;
+    width: 22px;
+    text-align: center;
+  }
+}
+
+.fixed .social-icons li {
+  margin-top: 6px;
+}
+
+@media only screen and (max-width: 574px) {
+  .header_top_right {
+    margin-top: -30px;
+  }
+}
+
+.header-top {
+  line-height: 36px;
+}
+
+.contact-info {
+  padding-bottom: 6px;
+  //margin-right: 20px;
+  > span {
+    padding-right: 42px;
+  }
+  i {
+    padding-left: 10px;
+  }
+}
+
+// Top Bar
+//--------------------------------------------------
+.fixed .show-cart-btn {
+  display: none;
+}
+
+.top-bar {
+  .title-area {
+    padding-left: 0;
+    .name {
+      h2 {
+        font-size: 25px;
+        font-weight: 400;
+        margin: 5px 0;
+      }
+    }
+  }
+}
+
+.admin-bar {
+  .creative-layout .sticky.fixed {
+    margin-top: 32px;
+  }
+}
+
+.fixed {
+  z-index: 210;
+}
+
+@media #{$topbar-media-query} {
+  .top-bar {
+    height: 100px;
+    .fixed & {
+      @media #{$small} {
+        height: 70px;
+      }
+    }
+  }
+
+  .top-bar .name h1 a {
+    line-height: 80px;
+    .fixed & {
+      @media #{$small}{
+        line-height: 52px;
+      }
+    }
+  }
+  .title-area.title-displayed .name {
+    h1 {
+      float: left;
+    }
+    .site-title {
+      float: left;
+      padding: 17px 23px;
+      h2 {
+        color: #fff;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .fixed .top-bar {
+    transition: all .5s ease;
+    .name h1 a {
+      font-size: 2em;
+      line-height: 60px;
+    }
+  }
+}
+
+.top-bar-section {
+  .main-nav {
+    float: right;
+  }
+  .dropdown {
+    left: 0;
+    right: auto;
+    min-width: 160px;
+  }
+  .dropdown li a {
+    padding: 3px 20px;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .top-bar-section {
+    width: 100%;
+    .dropdown {
+      left: 100%;
+    }
+  }
+}
+
+.top-bar-section .right li .dropdown {
+  @media #{$topbar-media-query} {
+    left: 0;
+  }
+  left: 100%;
+  right: auto;
+}
+
+.top-bar-section > ul > li > a {
+  height: 70px;
+  @media #{$small} {
+    height: 80px;
+  }
+  .fixed & {
+    @media #{$small} {
+      height: 70px;
+    }
+  }
+}
+
+.top-bar-section .main-nav > li > a:not(.button) {
+  line-height: 100px;
+  font-size: 0.92857em;
+  &.has-icon {
+    line-height: 25px;
+    @media #{$small} {
+      text-align: center;
+    }
+    .fixed & {
+      @media #{$small} {
+        line-height: 70px;
+      }
+    }
+  }
+  min-width: 100px;
+  i {
+    display: block;
+    font-size: 24px;
+    display: inline-block;
+    padding: 10px 10px 0 30px;
+    @media #{$small} {
+      display: block;
+      padding: 16px 0 0 0;
+    }
+    .fixed & {
+      @media #{$small} {
+        display: none;
+      }
+    }
+  }
+}
+
+.top-bar-section .main-nav > .has-dropdown > a.has-icon {
+  padding-right: 15px !important;
+  &:after {
+    border: none;
+  }
+}
+
+.top-bar-section .has-dropdown > a:after {
+  top: 18px;
+  left: 98%;
+  @media #{$topbar-media-query} {
+    top: 10px;
+  }
+  @media #{$medium-up} {
+    left: 50%;
+  }
+}
+
+.fixed .top-bar-section .has-dropdown > a:after {
+  top: 10px;
+}
+
+.top-bar-section ul li > a {
+  font-size: 14px;
+}
+
+.titlebar {
+  .button.secondary {
+    margin: 2px;
+  }
+  .title {
+    margin: 1.5em 0;
+    @media #{$small-only} {
+      margin: 1.5em 0 .5em 0;
+    }
+  }
+  .subtitle {
+    color: #DDD;
+    margin-bottom: 30px;
+  }
+}
+
+.breadcrumbs {
+  float: right;
+  margin-top: 72px;
+  @media #{$small-only} {
+    margin: 0;
+  }
+  > * {
+    font-size: 0.9rem
+  }
+}
+
+@media #{$topbar-media-query} {
+  .wd_mega-menu:hover {
+    > .sub-menu.dropdown {
+      & > li {
+        & > .sub-menu.dropdown {
+          display: block !important;
+        }
+      }
+    }
+  }
+  .wd_mega-menu .sub-menu li li > a {
+    padding: 0 5px !important;
+  }
+}
+
+.wd_mega-menu > .sub-menu.dropdown > li:hover {
+  & > .sub-menu.dropdown {
+    display: block !important;
+  }
+}
+
+.header_top_lang {
+  margin-top: 6px;
+}
+
+@media #{$max-small} {
+  /*
+   * ---------mega menu-----------------
+   */
+  .wd_mega-menu:hover {
+    > .sub-menu.dropdown {
+      border: 1px solid #eee;
+      box-shadow: none;
+      height: auto !important;
+      left: auto;
+      position: relative !important;
+      width: 100%;
+      & > li {
+        display: table-cell;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 20px;
+        @media #{$max-small} {
+          width: auto;
+          display: block;
+          float: none;
+        }
+        & > .sub-menu.dropdown {
+          position: unset !important;
+          box-shadow: none;
+          padding-bottom: 10px;
+          height: auto;
+          display: none !important;
+        }
+      }
+    }
+  }
+
+  .wd_mega-menu {
+    > .sub-menu.dropdown {
+      & > li {
+        transition: all .5s ease;
+        &:hover {
+          & > .sub-menu.dropdown {
+            display: block !important;
+            width: 100%;
+          }
+        }
+
+      }
+    }
+  }
+
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+  line-height: 15px;
+}
+
+.top-bar-section .wd_mega-menu .has-dropdown > a {
+  padding-right: 10.188rem !important;
+}
+
+.wd_mega-menu > .dropdown > li > a {
+  font-weight: bold;
+}
+
+.top-bar-section .has-dropdown .dropdown li.has-dropdown > a::after {
+  // content: "";
+}
+
+.top-bar-section .wd_mega-menu > .dropdown > li:not(.has-form):not(.active) > a:not(.button) {
+  background: transparent;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.top-bar-section .wd_mega-menu > .dropdown > li:hover:not(.has-form):not(.active) > a:not(.button) {
+  background: transparent;
+  color: #000;
+}
+
+.top-bar-section .wd_mega-menu .dropdown .dropdown > li:not(.has-form) a:not(.button) {
+  line-height: 2em;
+}
+
+.empty-menu {
+  float: right;
+}

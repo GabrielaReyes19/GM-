@@ -1,0 +1,190 @@
+.section-container.auto > section,
+.section-container.auto > .section {
+  & > .title {
+    background-color: #FAFAFA;
+    border: 1px solid #EEEEEE;
+    .black & {
+      background-color: #444;
+      border: 1px solid #333;
+    }
+    &:hover {
+      background-color: #F2F2F2;
+    }
+    & a {
+      padding: 0.7em 1.07143em;
+    }
+  }
+  &.active .title {
+    border-top: 2px solid $primary-color;
+  }
+  &:last-child .title {
+    border-right: 1px solid #EEEEEE;
+    .black & {
+      border-right: 1px solid #333;
+    }
+  }
+
+  & > .content,
+  & > .content {
+    background-color: #FFFFFF;
+    .black & {
+      background-color: #272727;
+      border: 1px solid #333;
+    }
+    border: 1px solid #EEE;
+    padding: 1.07143em;
+  }
+}
+
+.section-container.auto > section > .title,
+.section-container.auto > .section > .title,
+.section-container.vertical-tabs > section > .title,
+.section-container.vertical-tabs > .section > .title,
+.section-container.vertical-nav > section > .title,
+.section-container.vertical-nav > .section > .title,
+.section-container.horizontal-nav > section > .title,
+.section-container.horizontal-nav > .section > .title,
+.section-container.accordion > section > .title,
+.section-container.accordion > .section > .title {
+  background-color: #FAFAFA;
+  .black & {
+    background-color: #444;
+    a {
+      color: #FFF;
+    }
+  }
+}
+
+.section-container.auto,
+.section-container.vertical-tabs,
+.section-container.vertical-nav,
+.section-container.horizontal-nav,
+.section-container.accordion {
+  border: none;
+}
+
+.section-container.accordion > section > .title,
+.section-container.accordion > .section > .title {
+  border: none;
+}
+
+.section-container.auto > section.active > .title,
+.section-container.auto > .section.active > .title,
+.section-container.vertical-tabs > section.active > .title,
+.section-container.vertical-tabs > .section.active > .title,
+.section-container.vertical-nav > section.active > .title,
+.section-container.vertical-nav > .section.active > .title,
+.section-container.horizontal-nav > section.active > .title,
+.section-container.horizontal-nav > .section.active > .title,
+.section-container.accordion > section.active > .title,
+.section-container.accordion > .section.active > .title {
+  background: #FFF;
+  border-top: 2px solid $primary-color;
+  .black & {
+    background-color: #272727;
+  }
+}
+
+.section-container.accordion > section > .content,
+.section-container.accordion > .section > .content {
+  border: none;
+  border-top: 1px solid #EEE;
+  .black & {
+    background-color: #272727;
+    border-top: 1px solid #888;
+  }
+}
+
+//_______________________section image select______________________
+.wd-all-image-detail {
+  ul {
+    list-style: none;
+  }
+  i {
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 1.5em;
+    background: #fff;
+
+    color: #db4436;
+  }
+  .active {
+    i {
+      background: $primary-color;
+      border-color: $primary-color;
+      color: #fff;
+    }
+  }
+  li {
+    margin-bottom: 20px;
+  }
+}
+
+.wd-all-image {
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  width: 50%;
+}
+
+.wd-all-image > div img {
+  transition: all 0.8s cubic-bezier(.68, -0.55, .27, 1.55) 0s;
+  display: block;
+  position: absolute;
+}
+
+.wd-all-image > div img:nth-child(2) {
+  transition-delay: 0.5s;
+  z-index: 100;
+  right: 0;
+}
+
+.wd-hide img {
+  opacity: 0;
+  transform: translateX(360px);
+}
+
+.wd-all-image-detail {
+  ul {
+    li {
+      &:last-child {
+        .box-icon {
+          &:after {
+            display: none;
+          }
+
+        }
+      }
+    }
+
+  }
+
+  .box-icon {
+    float: left;
+    position: relative;
+
+    &:after {
+      background: #eee none repeat scroll 0 0;
+      content: " ";
+      display: inline-block;
+      height: 55px;
+      left: 25px;
+      position: absolute;
+      top: 55px;
+      width: 1px;
+
+    }
+
+  }
+  .box-text {
+    padding-left: 80px;
+    cursor: pointer;
+    p {
+      color: #777;
+    }
+  }
+}
+
+//_______________________________________________________________________

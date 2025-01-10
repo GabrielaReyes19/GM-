@@ -1,0 +1,14 @@
+body {
+  .top-bar-section li:not(.has-form) a:hover:not(.button),
+  .top-bar-section ul li:hover:not(.has-form) > a,
+  .top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button) {
+    background: rgba(255, 255, 255, 0);
+  }
+}
+
+.nav-layout-metro-layout nav.top-bar {
+  height: auto;
+  @media #{$max-small} {
+    height: 40px;
+  }
+}

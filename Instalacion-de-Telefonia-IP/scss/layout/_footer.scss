@@ -1,0 +1,122 @@
+// Non-modular or client styles for .l-footer region.
+
+.l-footer-columns {
+  clear: both;
+  .block-comment-recent li span {
+    display: block;
+  }
+}
+
+.l-footer {
+  padding-top: 1em;
+  #lang_sel_list li {
+    left: 40%;
+  }
+
+  p {
+    margin: 0;
+    padding-bottom: 0.7em;
+    direction: ltr;
+  }
+  .footer {
+    text-align: left;
+  }
+  margin-bottom: 0;
+  section.block {
+    padding: 0;
+  }
+}
+
+#lang_sel_list ul a, #lang_sel_list_list ul a:visited, #lang_sel_list a, #lang_sel_list a:visited {
+  background: none;
+}
+
+.l-footer-columns tfoot {
+  background: none repeat scroll 0 0 transparent;
+}
+
+.l-footer-columns table {
+  background-color: rgba(255, 255, 255, .3);
+}
+
+.l-footer-columns table tr.even, table tr.alt, table tr:nth-of-type(2n) {
+  background-color: transparent;
+}
+
+.l-footer-columns #s {
+  background: rgba(255, 255, 255, .3);
+  border-bottom: 0;
+  border-width: 0;
+}
+
+.l-footer-columns input#searchsubmit {
+  height: 40px;
+  top: 0;
+}
+
+.l-footer-columns table caption {
+  color: #AAA;
+}
+
+.l-footer-columns .block-title, .l-footer-columns ul li a {
+  color: #fff;
+}
+
+.l-footer-columns ul {
+  margin-left: 0;
+}
+
+.l-footer-columns h6 {
+  color: #fff;
+}
+
+.l-footer-columns .newsletter-div {
+  margin-top: 10px;
+  position: relative;
+  .newslettersubmit {
+    border: 0 none;
+    box-shadow: none;
+    height: 40px;
+    padding: 0 14px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+    background-color: $primary-color;
+
+  }
+  a.footer-readmor {
+    color: $primary-color;
+  }
+  .footer-readmor i {
+    left: 124px;
+    position: absolute;
+    top: 2px;
+  }
+}
+
+.l-footer-columns h2::after {
+  content: " ";
+  display: block;
+  background-color: $primary-color;
+  height: 3px;
+  width: 20px;
+  margin: 8px 0 0;
+}
+
+.l-footer-columns .newsletter-div input.email-adress {
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  height: 40px;
+}
+
+.l-footer-columns ul li a::before {
+  content: "\f054";
+  font: normal normal normal 14px/1 FontAwesome;
+  transform: translate(0, 0);
+  position: absolute;
+  top: 10px;
+  left: 0;
+  font-size: 8px;
+  color: $primary-color;
+}
