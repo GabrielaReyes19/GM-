@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+.col-md-w1{width:1.6%; text-align: center;}
+.center{text-align: center; margin: 0 auto;}
+.tbl-enero{font-size: 0.85em;text-transform: uppercase;}
+thead tr th{text-align: center;}
+
+td11{content: "\f096";font-family: FontAwesome;}
+td22{content: content: "\f046";}
+.lsearch{font-size: 10.4px;font-weight: 700;}
+.hr_popover{margin-top:5px; margin-bottom:5px; border:0px;border-top: 1px solid #eee; overflow: hidden;}
+
+.gui {font-family: Arial;}
