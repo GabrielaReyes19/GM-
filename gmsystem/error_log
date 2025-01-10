@@ -1,0 +1,332 @@
+[11-Aug-2024 10:10:02 America/Lima] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1789
+Stack trace:
+#0 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php(42): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/e9umouum1v7k/public_html/gmsystem/vendor/composer/ClassLoader.php(478): include('/home/e9umouum1...')
+#2 /home/e9umouum1v7k/public_html/gmsystem/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile()
+#3 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/helpers.php(423): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): collect()
+#5 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#6 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(206): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#7 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\Foundation\Application->bootstrapWith()
+#8 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->bootstrap()
+#9 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#10 /home/e9umouum1v7k/public_html/gmsystem/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle()
+#11 /home/e9umouum1v7k/public_html/gmsystem/index.php(21): require_once('/home/e9umouum1...')
+#12 {main} in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 42
+[11-Aug-2024 10:10:03 America/Lima] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1789
+Stack trace:
+#0 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php(42): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/e9umouum1v7k/public_html/gmsystem/vendor/composer/ClassLoader.php(478): include('/home/e9umouum1...')
+#2 /home/e9umouum1v7k/public_html/gmsystem/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile()
+#3 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/helpers.php(423): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): collect()
+#5 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#6 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(206): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#7 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\Foundation\Application->bootstrapWith()
+#8 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->bootstrap()
+#9 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#10 /home/e9umouum1v7k/public_html/gmsystem/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle()
+#11 /home/e9umouum1v7k/public_html/gmsystem/index.php(21): require_once('/home/e9umouum1...')
+#12 {main} in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 42
+[11-Aug-2024 10:10:06 America/Lima] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1789
+Stack trace:
+#0 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php(42): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/e9umouum1v7k/public_html/gmsystem/vendor/composer/ClassLoader.php(478): include('/home/e9umouum1...')
+#2 /home/e9umouum1v7k/public_html/gmsystem/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile()
+#3 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/helpers.php(423): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): collect()
+#5 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#6 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(206): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#7 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\Foundation\Application->bootstrapWith()
+#8 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->bootstrap()
+#9 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#10 /home/e9umouum1v7k/public_html/gmsystem/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle()
+#11 /home/e9umouum1v7k/public_html/gmsystem/index.php(21): require_once('/home/e9umouum1...')
+#12 {main} in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 42
+[11-Aug-2024 10:10:08 America/Lima] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1789
+Stack trace:
+#0 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php(42): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/e9umouum1v7k/public_html/gmsystem/vendor/composer/ClassLoader.php(478): include('/home/e9umouum1...')
+#2 /home/e9umouum1v7k/public_html/gmsystem/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile()
+#3 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/helpers.php(423): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): collect()
+#5 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#6 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(206): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#7 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\Foundation\Application->bootstrapWith()
+#8 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->bootstrap()
+#9 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#10 /home/e9umouum1v7k/public_html/gmsystem/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle()
+#11 /home/e9umouum1v7k/public_html/gmsystem/index.php(21): require_once('/home/e9umouum1...')
+#12 {main} in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 42
+[11-Aug-2024 10:10:08 America/Lima] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1789
+Stack trace:
+#0 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php(42): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/e9umouum1v7k/public_html/gmsystem/vendor/composer/ClassLoader.php(478): include('/home/e9umouum1...')
+#2 /home/e9umouum1v7k/public_html/gmsystem/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile()
+#3 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/helpers.php(423): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): collect()
+#5 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#6 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(206): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#7 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\Foundation\Application->bootstrapWith()
+#8 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->bootstrap()
+#9 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#10 /home/e9umouum1v7k/public_html/gmsystem/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle()
+#11 /home/e9umouum1v7k/public_html/gmsystem/index.php(21): require_once('/home/e9umouum1...')
+#12 {main} in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 42
+[11-Aug-2024 10:10:25 America/Lima] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1789
+Stack trace:
+#0 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php(42): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/e9umouum1v7k/public_html/gmsystem/vendor/composer/ClassLoader.php(478): include('/home/e9umouum1...')
+#2 /home/e9umouum1v7k/public_html/gmsystem/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile()
+#3 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/helpers.php(423): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): collect()
+#5 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#6 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(206): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#7 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\Foundation\Application->bootstrapWith()
+#8 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->bootstrap()
+#9 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#10 /home/e9umouum1v7k/public_html/gmsystem/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle()
+#11 /home/e9umouum1v7k/public_html/gmsystem/index.php(21): require_once('/home/e9umouum1...')
+#12 {main} in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 42
+[11-Aug-2024 10:10:27 America/Lima] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1789
+Stack trace:
+#0 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php(42): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/e9umouum1v7k/public_html/gmsystem/vendor/composer/ClassLoader.php(478): include('/home/e9umouum1...')
+#2 /home/e9umouum1v7k/public_html/gmsystem/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile()
+#3 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/helpers.php(423): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): collect()
+#5 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#6 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(206): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#7 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\Foundation\Application->bootstrapWith()
+#8 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->bootstrap()
+#9 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#10 /home/e9umouum1v7k/public_html/gmsystem/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle()
+#11 /home/e9umouum1v7k/public_html/gmsystem/index.php(21): require_once('/home/e9umouum1...')
+#12 {main} in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 42
+[11-Aug-2024 10:10:29 America/Lima] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1789
+Stack trace:
+#0 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php(42): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/e9umouum1v7k/public_html/gmsystem/vendor/composer/ClassLoader.php(478): include('/home/e9umouum1...')
+#2 /home/e9umouum1v7k/public_html/gmsystem/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile()
+#3 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/helpers.php(423): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): collect()
+#5 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#6 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(206): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#7 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\Foundation\Application->bootstrapWith()
+#8 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->bootstrap()
+#9 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#10 /home/e9umouum1v7k/public_html/gmsystem/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle()
+#11 /home/e9umouum1v7k/public_html/gmsystem/index.php(21): require_once('/home/e9umouum1...')
+#12 {main} in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 42
+[11-Aug-2024 10:10:31 America/Lima] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1789
+Stack trace:
+#0 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php(42): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/e9umouum1v7k/public_html/gmsystem/vendor/composer/ClassLoader.php(478): include('/home/e9umouum1...')
+#2 /home/e9umouum1v7k/public_html/gmsystem/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile()
+#3 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/helpers.php(423): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): collect()
+#5 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#6 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(206): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#7 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\Foundation\Application->bootstrapWith()
+#8 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->bootstrap()
+#9 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#10 /home/e9umouum1v7k/public_html/gmsystem/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle()
+#11 /home/e9umouum1v7k/public_html/gmsystem/index.php(21): require_once('/home/e9umouum1...')
+#12 {main} in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 42
+[11-Aug-2024 10:10:32 America/Lima] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1789
+Stack trace:
+#0 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php(42): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/e9umouum1v7k/public_html/gmsystem/vendor/composer/ClassLoader.php(478): include('/home/e9umouum1...')
+#2 /home/e9umouum1v7k/public_html/gmsystem/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile()
+#3 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/helpers.php(423): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): collect()
+#5 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#6 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(206): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#7 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\Foundation\Application->bootstrapWith()
+#8 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->bootstrap()
+#9 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#10 /home/e9umouum1v7k/public_html/gmsystem/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle()
+#11 /home/e9umouum1v7k/public_html/gmsystem/index.php(21): require_once('/home/e9umouum1...')
+#12 {main} in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 42
+[11-Aug-2024 10:10:41 America/Lima] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1789
+Stack trace:
+#0 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php(42): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/e9umouum1v7k/public_html/gmsystem/vendor/composer/ClassLoader.php(478): include('/home/e9umouum1...')
+#2 /home/e9umouum1v7k/public_html/gmsystem/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile()
+#3 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/helpers.php(423): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): collect()
+#5 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#6 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(206): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#7 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\Foundation\Application->bootstrapWith()
+#8 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\Foundation\Http\Kernel->bootstrap()
+#9 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#10 /home/e9umouum1v7k/public_html/gmsystem/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle()
+#11 /home/e9umouum1v7k/public_html/gmsystem/index.php(21): require_once('/home/e9umouum1...')
+#12 {main} in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 42
+[11-Aug-2024 15:11:13 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.2.34. in /home/e9umouum1v7k/public_html/gmsystem/vendor/composer/platform_check.php on line 24
+[23-Oct-2024 23:19:42 America/Lima] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[23-Oct-2024 23:19:42 America/Lima] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[23-Oct-2024 23:19:45 America/Lima] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[23-Oct-2024 23:19:47 America/Lima] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[23-Oct-2024 23:19:50 America/Lima] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[23-Oct-2024 23:20:12 America/Lima] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[23-Oct-2024 23:20:16 America/Lima] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[23-Oct-2024 23:20:17 America/Lima] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[23-Oct-2024 23:20:51 America/Lima] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php:826
+Stack trace:
+#0 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(826): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->resolveDependencies()
+#2 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#3 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#4 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#5 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(764): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(646): Illuminate\Container\Container->build()
+#8 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php(601): Illuminate\Container\Container->resolve()
+#9 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(734): Illuminate\Container\Container->make()
+#10 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/e9umouum1v7k/public_html/gmsystem/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 826
+[24-Oct-2024 04:22:28 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/e9umouum1v7k/public_html/gmsystem/vendor/composer/platform_check.php on line 24
+[24-Oct-2024 04:22:29 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/e9umouum1v7k/public_html/gmsystem/vendor/composer/platform_check.php on line 24
+[24-Oct-2024 04:22:31 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/e9umouum1v7k/public_html/gmsystem/vendor/composer/platform_check.php on line 24
+[24-Oct-2024 04:22:35 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/e9umouum1v7k/public_html/gmsystem/vendor/composer/platform_check.php on line 24
