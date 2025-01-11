@@ -129,6 +129,8 @@
 	
 	<!-- SPECIFIC CSS -->
 	<link href="../alarmas-de-seguridad/css/shop.css" rel="stylesheet">
+    <link href="/navbar.css" rel="stylesheet">
+
 
 </head>
 <style>
@@ -327,84 +329,104 @@
 			</div><!-- End container-->
 		</div><!-- End top line-->
 
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-xs-1" style="padding-left:8rem;">
-				<div id="logo">
-				<a href="#"><img src="../img/logo-gm-system.png" width="290" height="43" alt="" data-retina="true"></a>
-					</div>
-				</div>
-				<nav class="col-xs-11" style="padding-right: 4rem;">
-					<a class="cmn-toggle-switch cmn-toggle-switch__htx open_close" href="javascript:void(0);"><span>Menu mobile</span></a>
-					<div class="main-menu">
-						<div id="header_menu">
-							<img src="../img/logo-celular.png" width="240" height="36" alt="" data-retina="true" id="responsiveImage">
-					  </div>
-						<a href="#" class="open_close" id="close_in"><i class="icon_close"></i></a>
-						<ul>
-							<li class="submenu">
-								<a href="../index.html" class="show-submenu">Inicio </a>
-								
-							</li>
-							<li class="submenu">
-								<a href="javascript:void(0);" class="show-submenu">Control de acceso <i class="icon-down-open-mini"></i></a>
-								<ul>
-                                	<li><a href="../controldeacceso/">Instalaci&oacute;n de control de acceso </a></li>
-                                    
-                                	<li><a href="../Mantenimiento-de-control-de-acceso/">Mantenimiento de Control de Acceso</a></li>
-                                    <li><a href="../Modelos/modelo-control-de-acceso-biometrico-zkateco.html">Modelos de control de acceso</a></li>
-                                    
-                                   
-								</ul>
-							</li>
-							<li class="submenu">
-								<a href="javascript:void(0);" class="show-submenu">Control de asistencia <i class="icon-down-open-mini"></i></a>
-								<ul>
-                                	<li><a href="../controldeasistencia/">Instalaci&oacute;n de control de acceso </a></li>
-                                    
-                                	<li><a href="../Mantenimiento-de-control-de-asistencia/">Mantenimiento de Control de Asistencia</a></li>
-                                    <li><a href="../Modelos/modelo-control-de-acceso-biometrico-zkateco.html">Modelos de control de Asistencia</a></li>
-                                    
-                                   
-								</ul>
-							</li>
-							<li class="submenu">
-								<a href="javascript:void(0);" class="show-submenu">Cerco El&eacute;ctrico<i class="icon-down-open-mini"></i></a>
-								<ul>
-									<li><a href="../cercoselectricos/">Instalaci&oacute;n Cerco El&eacute;ctrico</a></li>
-									<li><a href="../Mantenimiento-de-cercos-electricos/">Mantenimiento Cerco El&eacute;ctrico</a></li>
-									<li><a href="../Modelos/panel-de-alarmas-hagroy.html">Modelos de Paneles de Cerco</a></li>
-								</ul>
-							</li>
-							<li class="submenu">
-								<a href="javascript:void(0);" class="show-submenu">C&aacute;maras Seguridad <i class="icon-down-open-mini"></i></a>
-								<ul>
-									<li><a href="../Mantenimiento-de-camaras-de-seguridad/">Mantenimiento C&aacute;maras Seguridad</a></li>
-									<li><a href="../Instalacion-de-camaras-de-seguridad/">Instalaci&oacute;n C&aacute;maras Seguridad</a></li>
-									<li><a href="../Modelos/modelo-camaras-seguridad-hikvision.html">Modelos C&aacute;maras Seguridad</a></li>
-								</ul>
-							</li>
-						
-                            
-                            <li class="submenu">
-								<a href="javascript:void(0);" class="show-submenu">Modelos <i class="icon-down-open-mini"></i></a>
-								<ul>
-								<li><a href="../Modelos/modelo-camaras-seguridad-hikvision.html">Hikvision</a></li>
-									<li><a href="../Modelos/modelo-camaras-seguridad-Ezviz.html">Ezviz</a></li>
-									<li><a href="../Modelos/modelo-camaras-seguridad-Dahua.html">Dahua</a></li>
-                                 
-                                    <li><a href="../Modelos/panel-de-alarmas-linseg.html">Linseg</a></li>
-                                    <li><a href="../Modelos/modelo-control-de-acceso-biometrico-zkateco.html">Z Kteco</a></li>
-                                    <li><a href="../Modelos/panel-de-alarmas-hagroy.html">Hagroy</a></li>
-								</ul>
-							</li>
-						
-						</ul>
-					</div><!-- End main-menu -->
-				</nav>
-			</div>
-		</div><!-- container -->
-	</header>
+		<div class="container-fluid position-relative d-flex align-items-center justify-content-between" style="margin-top: 15px; margin-bottom: 15px;">
+
+			<button class="menu-toggle" id="menuToggle" style="margin-top: 15px;">
+				<i class="fas fa-bars"></i>
+			  </button>
+	
+		  <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-2">
+			<!-- Uncomment the line below if you also wish to use an image logo -->
+			<!-- <img src="assets/img/logo.png" alt=""> -->
+		   
+
+         <div class="header-container" style="justify-content: center;">
+            <a href="#">
+			<img src="../alarmas-de-seguridad/img/logo.png" alt="" width="297" height="44" class="GM SYSTEM" >
+		    </a>
+	
+		  <nav id="navmenu" class="navmenu" style="margin-top: 5px;">
+			<ul>
+			  <li class="dropdown"><a href="#"><span>Control de acceso</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+				<ul>
+				  <li><a href="../Mantenimiento-de-control-de-acceso/">Mantenimiento de control de acceso</a></li>
+				 
+			   <li><a href="../controldeacceso/">Instalación de control de acceso </a></li>
+				  <li><a href="../Modelos/modelo-control-de-acceso-biometrico-zkateco.html">Modelos de control de acceso</a></li>
+				  
+				</ul>
+			  </li>
+			  <li class="dropdown"><a href="#"><span>Control de asistencia</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+				<ul>
+				  <li><a href="../Mantenimiento-de-control-de-asistencia/">Mantenimiento de control de asistencia</a></li>
+				 
+		   <li><a href="../controldeasistencia/">Instalación de control de acceso </a></li>
+				  <li><a href="../Modelos/modelo-control-de-asistencia-biometrico-zkateco.html">Modelos de control de acceso</a></li>
+				  
+				</ul>
+			  </li>
+			  <li class="dropdown"><a href="#"><span>Cercos eléctricos</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+				<ul>
+				  <li><a href="../Mantenimiento-de-cercos-electricos/">Mantenimiento de cerco eléctrico</a></li>
+				 
+				  <li><a href="../cercoselectricos/">Instalación de cerco électrico</a></li>
+				  <li><a href="../Modelos/panel-de-alarmas-hagroy.html">Modelos de cercos eléctricos </a></li>
+				  
+				</ul>
+			  </li>
+			  <li class="dropdown"><a href="#"><span>Cámaras CCTV</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+				<ul>
+				  <li><a href="../Mantenimiento-de-camaras-de-seguridad/">Mantenimiento de cámaras de seguridad</a></li>
+				 
+				  <li><a href="../Instalacion-de-camaras-de-seguridad/">Instalación de cámaras de seguridad</a></li>
+				  <li><a href="/Modelos/modelo-camaras-seguridad-hikvision.html">Modelos de cámaras de seguridad</a></li>
+				  
+				</ul>
+			  </li>
+			  <li class="dropdown"><a href="#"><span>Alarmas contra incendio</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+				<ul>
+				  <li><a href="../Mantenimiento-de-alarmas/">Mantenimiento de alarmas contra incendio</a></li>
+				  
+				  <li><a href="../Instalacion-de-alarmas/">Instalación de alarmas contra incendio</a></li>
+				  <li><a href="../Modelos/panel-de-alarmas-hagroy.html">Modelos de alarmas contra incendio</a></li>
+				  
+				</ul>
+			  </li>
+			  <li class="dropdown"><a href="#"><span>Videoportero</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+				<ul>
+				  <li><a href="../videoportero/">Mantenimiento de videoportero</a></li>
+				 
+				  <li><a href="../videoportero/">Instalación de videoportero</a></li>
+				  <li><a href="#">Modelos de videoportero</a></li>
+				  
+				</ul>
+			  </li>
+			  <li class="dropdown"><a href="#"><span>Modelos</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+				<ul>
+				  <li><a href="../Modelos/modelo-camaras-seguridad-hikvision.html">Hikvision</a></li>
+				 
+				  <li><a href="../Modelos/modelo-camaras-seguridad-Ezviz.html">Ezviz</a></li>
+				  <li><a href="../Modelos/modelo-camaras-seguridad-Dahua.html">Dahua</a></li>
+				  <li><a href="../Modelos/panel-de-alarmas-linseg.html">Linseg</a></li>
+				  <li><a href="../Modelos/modelo-control-de-acceso-biometrico-zkateco.html">ZKteco</a></li>
+				  <li><a href="../Modelos/panel-de-alarmas-hagroy.html">Hagroy</a></li>
+				</ul>
+			  </li>
+			  <li lass="dropdown"></li>
+			  <li lass="dropdown"></li>
+		  </ul>
+			<i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+		  </nav>
+		</div>
+    </div>
+        <script>
+            document.getElementById('menuToggle').addEventListener('click', function() {
+              document.getElementById('navmenu').classList.toggle('active');
+            });
+            
+        </script>
+</header>
+	
 	<section class="parallax_window_in short" data-parallax="scroll" data-image-src="../alarmas-de-seguridad/img/subheader_in_2.jpg" data-natural-width="1400" data-natural-height="350">
 		<div id="sub_content_in">
 			<div class="container">
@@ -415,7 +437,6 @@
 		</div>
         
 	</section>
-   
 
     <!-- End section -->
         
@@ -447,7 +468,9 @@
                                 <div class="inner-box">
                                     <!--Image Box-->
                                     <div class="image-box">
-                                        <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-B1A11N.png" alt=""></a></figure>
+                                        <figure class="image">
+                                        <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-tubular-DH-HAC-B1A11N.html">
+                                        <img src="../alarmas-de-seguridad/img/products/DH-HAC-B1A11N.png" alt=""></a></figure>
                                         <div class="item-options clearfix">
                                         </div>
                                     </div>
@@ -466,7 +489,9 @@
                                 <div class="inner-box">
                                     <!--Image Box-->
                                     <div class="image-box">
-                                        <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-B1A21N.png" alt=""></a></figure>
+                                        <figure class="image">
+                                        <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-tubular-DH-HAC-B1A21N.html">
+                                        <img src="../alarmas-de-seguridad/img/products/DH-HAC-B1A21N.png" alt=""></a></figure>
                                         <div class="item-options clearfix">
                                         </div>
                                     </div>
@@ -484,7 +509,9 @@
                                 <div class="inner-box">
                                     <!--Image Box-->
                                     <div class="image-box">
-                                        <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-B2A21N.png" alt=""></a></figure>
+                                        <figure class="image">
+                                        <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-tubular-DH-HAC-B2A21N.html">
+                                        <img src="../alarmas-de-seguridad/img/products/DH-HAC-B2A21N.png" alt=""></a></figure>
                                         <div class="item-options clearfix">
                                         </div>
                                     </div>
@@ -510,7 +537,9 @@
                           <div class="inner-box">
                               <!--Image Box-->
                               <div class="image-box">
-                                  <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-B4A21N-VF.png" alt=""></a></figure>
+                                  <figure class="image">
+                                  <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-tubular-DH-HAC-B4A21N-VF.html">
+                                  <img src="../alarmas-de-seguridad/img/products/DH-HAC-B4A21N-VF.png" alt=""></a></figure>
                                   <div class="item-options clearfix">
                                   </div>
                               </div>
@@ -531,7 +560,9 @@
                           <div class="inner-box">
                               <!--Image Box-->
                               <div class="image-box">
-                                  <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-HDW1200CLQN-IL-A.png" alt=""></a></figure>
+                                  <figure class="image">
+                                  <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-domo-DH-HAC-HDW1200CLQN-IL-A.html">
+                                  <img src="../alarmas-de-seguridad/img/products/DH-HAC-HDW1200CLQN-IL-A.png" alt=""></a></figure>
                                   <div class="item-options clearfix">
                                   </div>
                               </div>
@@ -549,7 +580,9 @@
             <div class="inner-box">
                 <!--Image Box-->
                 <div class="image-box">
-                    <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-HFW2802TN-A-I8.png" alt=""></a></figure>
+                    <figure class="image">
+                    <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-tubular-DH-HAC-HFW2802TN-A-I8.html">
+                    <img src="../alarmas-de-seguridad/img/products/DH-HAC-HFW2802TN-A-I8.png" alt=""></a></figure>
                     <div class="item-options clearfix">
                     </div>
                 </div>
@@ -571,7 +604,9 @@
                       <div class="inner-box">
                           <!--Image Box-->
                           <div class="image-box">
-                              <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-HDW1200EMN-A.png" alt=""></a></figure>
+                              <figure class="image">
+                              <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-domo-DH-HAC-HDW1200EMN-A.html">
+                              <img src="../alarmas-de-seguridad/img/products/DH-HAC-HDW1200EMN-A.png" alt=""></a></figure>
                               <div class="item-options clearfix">
                               </div>
                           </div>
@@ -590,7 +625,9 @@
                       <div class="inner-box">
                           <!--Image Box-->
                           <div class="image-box">
-                              <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-HDW1200TRQN-A.png" alt=""></a></figure>
+                              <figure class="image">
+                              <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-domo-DH-HAC-HDW1200TRQN-A.html">
+                              <img src="../alarmas-de-seguridad/img/products/DH-HAC-HDW1200TRQN-A.png" alt=""></a></figure>
                               <div class="item-options clearfix">
                               </div>
                           </div>
@@ -609,7 +646,9 @@
                       <div class="inner-box">
                           <!--Image Box-->
                           <div class="image-box">
-                              <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-HDW1209TLQN-ALED.png" alt=""></a></figure>
+                              <figure class="image">
+                              <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-domo-DH-HAC-HDW1209TLQN-ALED.html">
+                              <img src="../alarmas-de-seguridad/img/products/DH-HAC-HDW1209TLQN-ALED.png" alt=""></a></figure>
                               <div class="item-options clearfix">
                               </div>
                           </div>
@@ -634,7 +673,9 @@
                       <div class="inner-box">
                           <!--Image Box-->
                           <div class="image-box">
-                              <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-HDW1209TLQN-LED.png" alt=""></a></figure>
+                              <figure class="image">
+                              <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-domo-DH-HAC-HDW1209TLQN-LED.html">
+                              <img src="../alarmas-de-seguridad/img/products/DH-HAC-HDW1209TLQN-LED.png" alt=""></a></figure>
                               <div class="item-options clearfix">
                               </div>
                           </div>
@@ -653,7 +694,9 @@
                       <div class="inner-box">
                           <!--Image Box-->
                           <div class="image-box">
-                              <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-HDW1239TN-IL-A.png" alt=""></a></figure>
+                              <figure class="image">
+                              <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-domo-DH-HAC-HDW1239TN-IL-A.html">
+                              <img src="../alarmas-de-seguridad/img/products/DH-HAC-HDW1239TN-IL-A.png" alt=""></a></figure>
                               <div class="item-options clearfix">
                               </div>
                           </div>
@@ -671,7 +714,9 @@
                       <div class="inner-box">
                           <!--Image Box-->
                           <div class="image-box">
-                              <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-HDW1239TN-Z-A-LED.png" alt=""></a></figure>
+                              <figure class="image">
+                              <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-domo-DH-HAC-HDW1239TN-Z-A-LED.html">
+                              <img src="../alarmas-de-seguridad/img/products/DH-HAC-HDW1239TN-Z-A-LED.png" alt=""></a></figure>
                               <div class="item-options clearfix">
                               </div>
                           </div>
@@ -692,7 +737,9 @@
                       <div class="inner-box">
                           <!--Image Box-->
                           <div class="image-box">
-                              <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-HDW1500CLQN-IL-A.png" alt=""></a></figure>
+                              <figure class="image">
+                              <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-domo-DH-HAC-HDW1500CLQN-IL-A.html">
+                              <img src="../alarmas-de-seguridad/img/products/DH-HAC-HDW1500CLQN-IL-A.png" alt=""></a></figure>
                               <div class="item-options clearfix">
                               </div>
                           </div>
@@ -711,7 +758,9 @@
                       <div class="inner-box">
                           <!--Image Box-->
                           <div class="image-box">
-                              <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-HDW1500TLQN-A.png" alt=""></a></figure>
+                              <figure class="image">
+                              <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-tubular-DH-HAC-HDW1500TLQN-A.html">
+                              <img src="../alarmas-de-seguridad/img/products/DH-HAC-HDW1500TLQN-A.png" alt=""></a></figure>
                               <div class="item-options clearfix">
                               </div>
                           </div>
@@ -729,7 +778,9 @@
                       <div class="inner-box">
                           <!--Image Box-->
                           <div class="image-box">
-                              <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-HDW1500TN-Z-A.png" alt=""></a></figure>
+                              <figure class="image">
+                              <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-domo-DH-HAC-HDW1500TN-Z-A.html">
+                              <img src="../alarmas-de-seguridad/img/products/DH-HAC-HDW1500TN-Z-A.png" alt=""></a></figure>
                               <div class="item-options clearfix">
                               </div>
                           </div>
@@ -752,7 +803,9 @@
         <div class="inner-box">
             <!--Image Box-->
             <div class="image-box">
-                <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-HFW2241CMN-A.png" alt=""></a></figure>
+                <figure class="image">
+                <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-tubular-DH-HAC-HFW2241CMN-A.html">
+                <img src="../alarmas-de-seguridad/img/products/DH-HAC-HFW2241CMN-A.png" alt=""></a></figure>
                 <div class="item-options clearfix">
                 </div>
             </div>
@@ -771,7 +824,9 @@
     <div class="inner-box">
         <!--Image Box-->
         <div class="image-box">
-            <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-HFW1801THN-I8.png" alt=""></a></figure>
+            <figure class="image">
+                <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-tubular-DH-HAC-HFW1801THN-I8.html">
+                    <img src="../alarmas-de-seguridad/img/products/DH-HAC-HFW1801THN-I8.png" alt=""></a></figure>
             <div class="item-options clearfix">
             </div>
         </div>
@@ -788,7 +843,9 @@
                       <div class="inner-box">
                           <!--Image Box-->
                           <div class="image-box">
-                              <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-HDW1509TN-IL-A.png" alt=""></a></figure>
+                              <figure class="image">
+                                <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-domo-DH-HAC-HDW1509TN-IL-A.html">
+                                    <img src="../alarmas-de-seguridad/img/products/DH-HAC-HDW1509TN-IL-A.png" alt=""></a></figure>
                               <div class="item-options clearfix">
                               </div>
                           </div>
@@ -809,7 +866,9 @@
                       <div class="inner-box">
                           <!--Image Box-->
                           <div class="image-box">
-                              <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-HDW1800RN.png" alt=""></a></figure>
+                              <figure class="image">
+                                <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-domo-DH-HAC-HDW1800RN.html">
+                                    <img src="../alarmas-de-seguridad/img/products/DH-HAC-HDW1800RN.png" alt=""></a></figure>
                               <div class="item-options clearfix">
                               </div>
                           </div>
@@ -828,7 +887,9 @@
                       <div class="inner-box">
                           <!--Image Box-->
                           <div class="image-box">
-                              <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-HDW1800TLN-A.png" alt=""></a></figure>
+                              <figure class="image">
+                                <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-domo-DH-HAC-HDW1800TLN-A.html">
+                                    <img src="../alarmas-de-seguridad/img/products/DH-HAC-HDW1800TLN-A.png" alt=""></a></figure>
                               <div class="item-options clearfix">
                               </div>
                           </div>
@@ -846,7 +907,9 @@
                       <div class="inner-box">
                           <!--Image Box-->
                           <div class="image-box">
-                              <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-HDW2802TN-A.png" alt=""></a></figure>
+                              <figure class="image">
+                                <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-domo-DH-HAC-HDW2802TN-A.html">
+                                    <img src="../alarmas-de-seguridad/img/products/DH-HAC-HDW2802TN-A.png" alt=""></a></figure>
                               <div class="item-options clearfix">
                               </div>
                           </div>
@@ -867,7 +930,9 @@
                       <div class="inner-box">
                           <!--Image Box-->
                           <div class="image-box">
-                              <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-HFW1200CMN-A.png" alt=""></a></figure>
+                              <figure class="image">
+                                <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-tubular-DH-HAC-HFW1200CMN-A.html">
+                                    <img src="../alarmas-de-seguridad/img/products/DH-HAC-HFW1200CMN-A.png" alt=""></a></figure>
                               <div class="item-options clearfix">
                               </div>
                           </div>
@@ -886,7 +951,9 @@
                       <div class="inner-box">
                           <!--Image Box-->
                           <div class="image-box">
-                              <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-HFW1200CMN-IL-A.png" alt=""></a></figure>
+                              <figure class="image">
+                                <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-tubular-DH-HAC-HFW1200CMN-IL-A.html">
+                                    <img src="../alarmas-de-seguridad/img/products/DH-HAC-HFW1200CMN-IL-A.png" alt=""></a></figure>
                               <div class="item-options clearfix">
                               </div>
                           </div>
@@ -904,7 +971,9 @@
                       <div class="inner-box">
                           <!--Image Box-->
                           <div class="image-box">
-                              <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-HFW1200CN.png" alt=""></a></figure>
+                              <figure class="image">
+                                <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-tubular-DH-HAC-HFW1200CN.html">
+                                    <img src="../alarmas-de-seguridad/img/products/DH-HAC-HFW1200CN.png" alt=""></a></figure>
                               <div class="item-options clearfix">
                               </div>
                           </div>
@@ -925,7 +994,9 @@
                       <div class="inner-box">
                           <!--Image Box-->
                           <div class="image-box">
-                              <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-HFW1200DN.png" alt=""></a></figure>
+                              <figure class="image">
+                                <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-tubular-DH-HAC-HFW1200DN.html">
+                                    <img src="../alarmas-de-seguridad/img/products/DH-HAC-HFW1200DN.png" alt=""></a></figure>
                               <div class="item-options clearfix">
                               </div>
                           </div>
@@ -944,7 +1015,9 @@
                       <div class="inner-box">
                           <!--Image Box-->
                           <div class="image-box">
-                              <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-HFW1200RN-Z.png" alt=""></a></figure>
+                              <figure class="image">
+                                <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-tubular-DH-HAC-HFW1200RN-Z.html">
+                                    <img src="../alarmas-de-seguridad/img/products/DH-HAC-HFW1200RN-Z.png" alt=""></a></figure>
                               <div class="item-options clearfix">
                               </div>
                           </div>
@@ -963,7 +1036,9 @@
         <div class="inner-box">
             <!--Image Box-->
             <div class="image-box">
-                <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-HFW1800TN-A.png" alt=""></a></figure>
+                <figure class="image">
+                    <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-tubular-DH-HAC-HFW1800TN-A.html">
+                        <img src="../alarmas-de-seguridad/img/products/DH-HAC-HFW1800TN-A.png" alt=""></a></figure>
                 <div class="item-options clearfix">
                 </div>
             </div>
@@ -983,7 +1058,9 @@
                       <div class="inner-box">
                           <!--Image Box-->
                           <div class="image-box">
-                              <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-HFW1200RN-Z-IRE6.png" alt=""></a></figure>
+                              <figure class="image">
+                                <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-tubular-DH-HAC-HFW1200RN-Z-IRE6.html">
+                                    <img src="../alarmas-de-seguridad/img/products/DH-HAC-HFW1200RN-Z-IRE6.png" alt=""></a></figure>
                               <div class="item-options clearfix">
                               </div>
                           </div>
@@ -1002,7 +1079,9 @@
                       <div class="inner-box">
                           <!--Image Box-->
                           <div class="image-box">
-                              <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-HFW1200RN-Z-IRE6-A.png" alt=""></a></figure>
+                              <figure class="image">
+                                <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-tubular-DH-HAC-HFW1200RN-Z-IRE6-A.html">
+                                    <img src="../alarmas-de-seguridad/img/products/DH-HAC-HFW1200RN-Z-IRE6-A.png" alt=""></a></figure>
                               <div class="item-options clearfix">
                               </div>
                           </div>
@@ -1020,7 +1099,9 @@
                       <div class="inner-box">
                           <!--Image Box-->
                           <div class="image-box">
-                              <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-HFW1200THN-I4.png" alt=""></a></figure>
+                              <figure class="image">
+                                <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-tubular-DH-HAC-HFW1200THN-I4.html">
+                                    <img src="../alarmas-de-seguridad/img/products/DH-HAC-HFW1200THN-I4.png" alt=""></a></figure>
                               <div class="item-options clearfix">
                               </div>
                           </div>
@@ -1041,7 +1122,9 @@
                       <div class="inner-box">
                           <!--Image Box-->
                           <div class="image-box">
-                              <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/DH-HAC-HFW1200THN-I4-A.png" alt=""></a></figure>
+                              <figure class="image">
+                                <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-tubular-DH-HAC-HFW1200THN-I4-A.html">
+                                    <img src="../alarmas-de-seguridad/img/products/DH-HAC-HFW1200THN-I4-A.png" alt=""></a></figure>
                               <div class="item-options clearfix">
                               </div>
                           </div>
@@ -1060,7 +1143,9 @@
                       <div class="inner-box">
                           <!--Image Box-->
                           <div class="image-box">
-                              <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/HAC-HFW2509TUN-A-LED.png" alt=""></a></figure>
+                              <figure class="image">
+                                <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-tubular-HAC-HFW2509TUN-A-LED.html">
+                                    <img src="../alarmas-de-seguridad/img/products/HAC-HFW2509TUN-A-LED.png" alt=""></a></figure>
                               <div class="item-options clearfix">
                               </div>
                           </div>
@@ -1078,7 +1163,9 @@
                       <div class="inner-box">
                           <!--Image Box-->
                           <div class="image-box">
-                              <figure class="image"><a href=""><img src="../alarmas-de-seguridad/img/products/HAC-HFW2249T-I8-A-LED.png" alt=""></a></figure>
+                              <figure class="image">
+                                <a href="../gmsystemperu-camaras-seguridad/camaraseguridad-dahua-tubular-HAC-HFW2249T-I8-A-LED.html">
+                                    <img src="../alarmas-de-seguridad/img/products/HAC-HFW2249T-I8-A-LED.png" alt=""></a></figure>
                               <div class="item-options clearfix">
                               </div>
                           </div>

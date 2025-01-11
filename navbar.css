@@ -1,0 +1,591 @@
+/**
+* Template Name: Append
+* Template URL: https://bootstrapmade.com/append-bootstrap-website-template/
+* Updated: Jun 06 2024 with Bootstrap v5.3.3
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# Font & Color Variables
+# Help: https://bootstrapmade.com/color-system/
+--------------------------------------------------------------*/
+/* Fonts */
+:root {
+    --default-font: "Open Sans",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --heading-font: "Montserrat",  sans-serif;
+    --nav-font: "Poppins",  sans-serif;
+  }
+  
+  /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
+  :root { 
+    --background-color: #ffffff; /* Background color for the entire website, including individual sections */
+    --default-color: #212529; /* Default color used for the majority of the text content across the entire website */
+    --heading-color: #32353a; /* Color for headings, subheadings and title throughout the website */
+    --accent-color: #e84545; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+    --contrast-color: #ffffff; /* The contrast color is used for elements when the background color is one of the heading, accent, or default colors. Its purpose is to ensure proper contrast and readability when placed over these more dominant colors */
+  }
+  
+  /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
+  :root {
+    --nav-color: #3a3939;  /* The default color of the main navmenu links */
+    --nav-hover-color: #e84545; /* Applied to main navmenu links when they are hovered over or active */
+    --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+    --nav-dropdown-color: #3a3939; /* Used for navigation links of the dropdown items in the navigation menu. */
+    --nav-dropdown-hover-color: #e84545; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  }
+  
+  /* Smooth scroll */
+  :root {
+    scroll-behavior: smooth;
+  }
+  
+  /*--------------------------------------------------------------
+  # General
+  --------------------------------------------------------------*/
+  body {
+    color: var(--default-color);
+    background-color: var(--background-color);
+    font-family: var(--default-font);
+  }
+  
+  a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    color: color-mix(in srgb, var(--accent-color), transparent 25%);
+    text-decoration: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--heading-color);
+    font-family: var(--heading-font);
+  }
+  
+  /*--------------------------------------------------------------
+  # Global Header
+  --------------------------------------------------------------*/
+  .header {
+    color: var(--default-color);
+    background-color: var(--background-color);
+    padding: 20px 0;
+    transition: all 0.5s;
+    z-index: 997;
+  }
+  
+  .header .logo {
+    line-height: 1;
+  }
+  
+  .header .logo img {
+      max-height: 44px;
+      margin-right: 44px;
+  }
+  
+  .header .logo h1 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 600;
+    color: var(--heading-color);
+  }
+  
+  .header .logo span {
+    color: var(--accent-color);
+    font-size: 24px;
+    font-weight: 600;
+    padding-left: 3px;
+  }
+  
+  .header .btn-getstarted,
+  .header .btn-getstarted:focus {
+    color: var(--contrast-color);
+    background: var(--accent-color);
+    font-size: 14px;
+    padding: 8px 26px;
+    margin: 0;
+    border-radius: 4px;
+    transition: 0.3s;
+  }
+  
+  .header .btn-getstarted:hover,
+  .header .btn-getstarted:focus:hover {
+    color: var(--contrast-color);
+    background: color-mix(in srgb, var(--accent-color), transparent 15%);
+  }
+  
+  @media (max-width: 1200px) {
+    .header .logo {
+      order: 1;
+    }
+  
+    .header .btn-getstarted {
+      order: 2;
+      margin: 0 15px 0 0;
+      padding: 6px 20px;
+    }
+  
+    .header .navmenu {
+      order: 3;
+    }
+  }
+  
+  .scrolled .header {
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Index Page Header
+  ------------------------------*/
+  .index-page .header {
+    --background-color: rgba(255, 255, 255, 0);
+    --heading-color: #ffffff;
+    --nav-color: rgba(255, 255, 255, 0.5);
+    --nav-hover-color: #ffffff;
+  }
+  
+  /* Index Page Header on Scroll
+  ------------------------------*/
+  .index-page.scrolled .header {
+    --background-color: #ffffff;
+    --heading-color: #32353a;
+    --nav-color: #3a3939;
+    --nav-hover-color: #e84545;
+  }
+  
+  /*--------------------------------------------------------------
+  # Navigation Menu
+  --------------------------------------------------------------*/
+  /* Navmenu - Desktop */
+  @media (min-width: 1200px) {
+    .navmenu {
+      padding: 0;
+    }
+  
+    .navmenu ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      list-style: none;
+      align-items: center;
+    }
+  
+    .navmenu li {
+      position: relative;
+    }
+  
+    .navmenu a,
+    .navmenu a:focus {
+      color: rgb(11, 11, 11);
+      padding: 18px 15px;
+      font-size: 16px;
+      font-family: var(--nav-font);
+      font-weight: 400;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      white-space: nowrap;
+      transition: 0.3s;
+    }
+  
+    .navmenu a i,
+    .navmenu a:focus i {
+      font-size: 12px;
+      line-height: 0;
+      margin-left: 5px;
+      transition: 0.3s;
+    }
+  
+    .navmenu li:last-child a {
+      padding-right: 0;
+    }
+  
+    .navmenu li:hover>a,
+    .navmenu .active,
+    .navmenu .active:focus {
+      color: var(--nav-hover-color);
+    }
+  
+    .navmenu .dropdown ul {
+      margin: 0;
+      padding: 10px 0;
+      background: var(--nav-dropdown-background-color);
+      display: block;
+      position: absolute;
+      visibility: hidden;
+      left: 14px;
+      top: 130%;
+      opacity: 0;
+      transition: 0.3s;
+      border-radius: 4px;
+      z-index: 99;
+      box-shadow: 0px 0px 30px color-mix(in srgb, var(--default-color), transparent 85%);
+    }
+  
+    .navmenu .dropdown ul li {
+      min-width: 200px;
+    }
+  
+    .navmenu .dropdown ul a {
+      padding: 10px 20px;
+      font-size: 15px;
+      text-transform: none;
+      color: var(--nav-dropdown-color);
+    }
+  
+    .navmenu .dropdown ul a i {
+      font-size: 12px;
+    }
+  
+    .navmenu .dropdown ul a:hover,
+    .navmenu .dropdown ul .active:hover,
+    .navmenu .dropdown ul li:hover>a {
+      color: var(--nav-dropdown-hover-color);
+    }
+  
+    .navmenu .dropdown:hover>ul {
+      opacity: 1;
+      top: 100%;
+      visibility: visible;
+    }
+  
+    .navmenu .dropdown .dropdown ul {
+      top: 0;
+      left: -90%;
+      visibility: hidden;
+    }
+  
+    .navmenu .dropdown .dropdown:hover>ul {
+      opacity: 1;
+      top: 0;
+      left: -100%;
+      visibility: visible;
+    }
+  }
+  
+  /* Navmenu - Mobile */
+  @media (max-width: 1199px) {
+    .mobile-nav-toggle {
+      color: var(--nav-color);
+      font-size: 28px;
+      line-height: 0;
+      margin-right: 10px;
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+  
+    .navmenu {
+      padding: 0;
+      z-index: 9997;
+    }
+  
+    .navmenu ul {
+      display: none;
+      position: absolute;
+      inset: 60px 20px 20px 20px;
+      padding: 10px 0;
+      margin: 0;
+      border-radius: 6px;
+      background-color: var(--nav-dropdown-background-color);
+      overflow-y: auto;
+      transition: 0.3s;
+      z-index: 9998;
+      box-shadow: 0px 0px 30px color-mix(in srgb, var(--default-color), transparent 90%);
+    }
+  
+    .navmenu a,
+    .navmenu a:focus {
+      color: var(--nav-dropdown-color);
+      padding: 10px 20px;
+      font-family: var(--nav-font);
+      font-size: 17px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      white-space: nowrap;
+      transition: 0.3s;
+    }
+  
+    .navmenu a i,
+    .navmenu a:focus i {
+      font-size: 12px;
+      line-height: 0;
+      margin-left: 5px;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      transition: 0.3s;
+      background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+    }
+  
+    .navmenu a i:hover,
+    .navmenu a:focus i:hover {
+      background-color: var(--accent-color);
+      color: var(--contrast-color);
+    }
+  
+    .navmenu a:hover,
+    .navmenu .active,
+    .navmenu .active:focus {
+      color: var(--nav-dropdown-hover-color);
+    }
+  
+    .navmenu .active i,
+    .navmenu .active:focus i {
+      background-color: var(--accent-color);
+      color: var(--contrast-color);
+      transform: rotate(180deg);
+    }
+  
+    .navmenu .dropdown ul {
+      position: static;
+      display: none;
+      z-index: 99;
+      padding: 10px 0;
+      margin: 10px 20px;
+      background-color: var(--nav-dropdown-background-color);
+      border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+      box-shadow: none;
+      transition: all 0.5s ease-in-out;
+    }
+  
+    .navmenu .dropdown ul ul {
+      background-color: rgba(33, 37, 41, 0.1);
+    }
+  
+    .navmenu .dropdown>.dropdown-active {
+      display: block;
+      background-color: rgba(33, 37, 41, 0.03);
+    }
+  
+    .mobile-nav-active {
+      overflow: hidden;
+    }
+  
+    .mobile-nav-active .mobile-nav-toggle {
+      color: #fff;
+      position: absolute;
+      font-size: 32px;
+      top: 15px;
+      right: 15px;
+      margin-right: 0;
+      z-index: 9999;
+    }
+  
+    .mobile-nav-active .navmenu {
+      position: fixed;
+      overflow: hidden;
+      inset: 0;
+      background: rgba(33, 37, 41, 0.8);
+      transition: 0.3s;
+    }
+  
+    .mobile-nav-active .navmenu>ul {
+      display: block;
+    }
+  }
+
+  /*--------------------------------------------------------------
+  # Scroll Top Button
+  --------------------------------------------------------------*/
+  .scroll-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+    background-color: var(--accent-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    transition: all 0.4s;
+  }
+  
+  .scroll-top i {
+    font-size: 24px;
+    color: var(--contrast-color);
+    line-height: 0;
+  }
+  
+  .scroll-top:hover {
+    background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+    color: var(--contrast-color);
+  }
+  
+  .scroll-top.active {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+
+  @media (max-width: 1199px) {
+  
+    section,
+    .section {
+      scroll-margin-top: 64px;
+    }
+  }
+  
+  @media (max-width: 575px) {
+  
+    .portfolio-details .swiper-button-prev,
+    .portfolio-details .swiper-button-next {
+      display: none;
+    }
+  }
+  
+  .portfolio-details .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+  }
+  
+#header {
+    padding-top: 10px;  /* Ajustar el espacio superior */
+    padding-bottom: 10px; /* Ajustar el espacio inferior */
+    height: auto;  /* Si es necesario ajustar la altura */
+    padding-left: 50px;
+}
+
+#header .logo img {
+    width: 200px;  /* Ajustar el tamaño del logo */
+    height: auto;  /* Mantener la proporción del logo */
+}
+
+#navmenu a {
+    font-size: 14px;  /* Reducir tamaño de fuente de los enlaces */
+    padding: 20px 20px; /* Reducir el padding */
+}
+
+#navmenu .dropdown a {
+    padding: 5px 12px; /* Reducir padding de los elementos del menú */
+}
+
+.menu-toggle i, .bi {
+    font-size: 18px;  /* Reducir el tamaño de los íconos del menú */
+}
+
+.header .container-fluid {
+  display: flex;
+  align-items: center;
+  position: relative;
+  
+}
+
+.menu-toggle {
+  display: none;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+li.dropdown:hover > a {
+  color: red; /* Cambiar color del texto cuando el dropdown está activo */
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    position: absolute;
+    right: 10px;
+  }
+
+  #menuToggle.active + #navmenu {
+    display: block;
+  }
+
+  .navmenu {
+    display: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navmenu.active {
+    display: block;
+  }
+
+  .navmenu ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .navmenu li {
+    padding: 10px;
+  }
+
+  .navmenu a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .dropdown > a:after {
+    content: " ▼";
+  }
+
+  .dropdown ul {
+    display: none;
+  }
+
+  .dropdown:hover ul {
+    display: block;
+  }
+
+  .toggle-dropdown {
+    display: inline;
+  }
+}
+
+
+.header-container {
+  display: flex;
+  align-items: center; /* Centra verticalmente el logo y el menú */
+}
+
+.header-container img {
+  margin-right: 20px; /* Espacio entre el logo y el menú */
+}
+
+/* Cambiar la tipografía del texto en #tag_line */
+#tag_line {
+  font-family: 'Poppins'; 
+  font-size: 14px; 
+  color: #333333; 
+}
+
+/* Cambiar la tipografía del número de teléfono en #phone_top */
+#phone_top {
+  font-family: 'Poppins'; /* Cambia 'Verdana' por la fuente que desees */
+  font-size: 14px; /* Cambia el tamaño de la fuente */
+  color: #007bff; /* Cambia el color del texto */
+}
+
+/* Cambiar la tipografía del horario de apertura en #opening */
+#opening {
+  font-family: 'Poppins'; /* Cambia 'Georgia' por la fuente que desees */
+  font-size: 14px; /* Cambia el tamaño de la fuente */
+  color: #555555; /* Cambia el color del texto */
+}
+
+/* Cambiar la tipografía de los enlaces dentro de #top_links */
+#top_links a {
+  font-family: 'Poppins'; /* Cambia 'Poppins' por la fuente que desees */
+  font-size: 14px; /* Cambia el tamaño de la fuente */
+  color: #000000; /* Cambia el color del texto */
+  text-decoration: none; /* Evita que los enlaces tengan subrayado */
+}
+
+/* Cambiar la tipografía cuando se pasa el mouse sobre los enlaces */
+#top_links a:hover {
+  color: #e84545; /* Cambia el color del texto cuando el enlace es hover */
+}

@@ -263,7 +263,7 @@ a#phone_top:before {
 #opening:before {
 	font-family: "ElegantIcons";
 	content: "\7d";
-	font-size: 14px;
+	font-size: 16px;
 	position: absolute;
 	left: 0;
 	top: -3px;
